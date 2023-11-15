@@ -3,7 +3,9 @@ import { Outlet } from 'react-router-dom';
 import { Footer } from '../footer';
 import { Menu } from '../menu';
 import { Navbar } from '../navbar';
+
 import './layout.scss';
+import '../../styles/global.scss';
 
 export const Layout = () => {
   return (
